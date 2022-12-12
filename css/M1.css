@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(120deg,#2980b9, #6198cc);
+    text-align: right;
+    direction: rtl;
+    justify-content: left;
+    height: 100vh;
+    margin: 0;
+}
+
+/*  *********
+ 1. Header
+ ***********  */
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    font-family: 'Cairo', sans-serif;
+    background-color: rgba(76, 223, 252, 0.562);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+}
+
+
+
+a {
+    padding-top: 8px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 10px;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.514);
+
+}
+
+.up {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(76, 223, 252, 0.37);
+    top: 55px;
+    right: 47px;
+    width: 130px;
+    visibility: hidden;
+
+
+}
+
+.drop:hover+.up {
+    visibility: visible;
+
+}
+
+.up:hover {
+    color: rgb(154, 168, 168);
+}
+
+
+.up1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(76, 223, 252, 0.37);
+    top: 55px;
+    right: 440px;
+    width: 130px;
+    visibility: hidden;
+
+
+}
+
+.drop:hover+.up1 {
+    visibility: visible;
+
+}
+
+.up1:hover {
+    color: rgb(154, 168, 168);
+}
+
+.up.show {
+    /* display: block; */
+    visibility: visible;
+}
+
+
+.up1.show {
+    /* display: block; */
+    visibility: visible;
+}
+
+
+/** 
+3.Text
+**/
+.tex {
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    justify-content: left;
+    position: relative;
+    top: 199px;
+    padding-right: 160PX;
+    font-family: 'Cairo', sans-serif;
+
+
+}
+
+.tex2 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: relative;
+    top: 250px;
+    padding-right: 110px;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.co {
+    color: aliceblue;
+}
+
+/**
+4.Footer
+**/
+
+footer {
+    background-color: rgba(54, 183, 209, 0.616);
+position: absolute;
+top:600px;
+    height: 130px;
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+}
+
+.re{
+    position: absolute;;
+    top: 35px;
+}
+.fa-facebook{
+    color: blue;
+    position: absolute;
+    top: 30px;
+    padding-right: 150px;
+    font-size: 20px;
+}
+.fa-facebook:hover{
+    color: white;
+}
+.gh{
+    padding-right: 25px;
+}
+.t2{
+    position: absolute;
+    bottom: 20px;
+    padding-right: 200px;
+}
+.fa-envelope{
+    color: black;
+    position: absolute;
+    top: 90px;
+    padding-right: 33px;
+}
+
+.t1{
+    font-size: 18px;
+    color: white;
+}
+
+.infinity{
+    position:relative;
+    right: 800px;
+    bottom: 100px;
+    height: 100px ;
+    width:212px ;
+    box-sizing: border-box;
+}
+
+    .infinity:before,
+    .infinity:after {
+      content: '';
+      box-sizing: content-box;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 60px;
+      height: 60px;
+      border: 20px solid rgba(255, 255, 255, 0.747);
+      border-radius: 50px 50px 0 50px;
+      transform: rotate(-45deg);
+    }
+    .infinity:after{
+            left: auto;
+            right: 0;
+            border-radius: 50px 50px 50px 0;
+            transform: rotate(45deg);
+            border: 20px solid hsla(0, 0%, 100%, 0.502);
+
+    }
+    .infinity1{
+        position:relative;
+        right: 1100px;
+        bottom: 80px;
+        height: 36px ;
+        width:124px ;
+        box-sizing: border-box;
+    }
+    
+        .infinity1:before,
+        .infinity1:after {
+          content: '';
+          box-sizing: content-box;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 23px;
+          height: 23px;
+          border: 20px solid rgba(255, 255, 255, 0.747);
+          border-radius: 50px 50px 0 50px;
+          transform: rotate(-45deg);
+        }
+        .infinity1:after{
+                left: auto;
+                right: 0;
+                border-radius: 50px 50px 50px 0;
+                transform: rotate(45deg);
+                border: 20px solid #ffffff80;
+    
+        }
+
+    
+        img{
+            width:100px ;
+            height: 100px;
+            position:absolute;
+            right: 950px;
+            bottom: 20px;
+            background-color: rgb(151, 243, 231);
+           
+        }

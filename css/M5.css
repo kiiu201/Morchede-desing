@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    direction: rtl;
+    justify-content: left;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    font-family: 'Cairo', sans-serif;
+    background-color: rgba(76, 223, 252, 0.815);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+
+
+a {
+    padding-top: 8px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 10px;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.514);
+
+}
+
+.up {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(76, 223, 252, 0.87);
+    top: 55px;
+    right: 43px;
+    width: 130px;
+    visibility: hidden;
+
+
+}
+
+.drop:hover+.up {
+    visibility: visible;
+
+}
+
+.up:hover {
+    color: rgb(154, 168, 168);
+}
+
+
+.up1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(76, 223, 252, 0.87);
+    top: 55px;
+    right: 440px;
+    width: 130px;
+    visibility: hidden;
+
+
+}
+
+.drop:hover+.up1 {
+    visibility: visible;
+
+}
+
+.up1:hover {
+    color: rgb(154, 168, 168);
+}
+
+.up.show {
+    /* display: block; */
+    visibility: visible;
+}
+
+
+.up1.show {
+    /* display: block; */
+    visibility: visible;
+}
+
+.y1 {
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    padding-top: 35px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+.t1 {
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 60px;
+    right: 62px;
+    position: relative;
+    right: 300px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.bb1 {
+    background-color: rgba(96, 170, 184, 0.425);
+}
+
+th {
+    padding: 25px;
+}
+
+table {
+    border-radius: 15px;
+}
+
+
+.tex {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Cairo', sans-serif;
+    position: relative;
+    padding-right: 35px;
+    top: 60px;
+}
+
+.tex1 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: 'Cairo', sans-serif;
+    position: relative;
+    padding-right: 35px;
+    top: 15px;
+}
+
+.co {
+    color: aliceblue;
+}
+
+.end1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Cairo', sans-serif;
+    position: relative;
+    padding-right: 35px;
+    top: 45px;
+}
+
+.end2 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: 'Cairo', sans-serif;
+    position: relative;
+    padding-right: 35px;
+    top: 30px;
+}
+
+.a1 {
+    position: relative;
+    right: 120px;
+}
+
+footer {
+    background-color: rgb(151, 243, 231);
+position: absolute;
+top:1500px;
+    height: 130px;
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+}
+
+.re{
+    position: absolute;;
+    top: 35px;
+}
+.fa-facebook{
+    color: blue;
+    position: absolute;
+    top: 15px;
+    right: 160px;
+    font-size: 20px;
+}
+.fa-facebook:hover{
+    color: white;
+    font-size: 35px;
+}
+.gh{
+    padding-right: 25px;
+}
+.t2{
+    position: absolute;
+    bottom: 20px;
+    padding-right: 200px;
+}
+.fa-envelope{
+    color: black;
+    position: absolute;
+    top: 90px;
+}
+.t11{
+    font-size: 20px;
+}
+.infinity1{
+    position:relative;
+    right: 1100px;
+    bottom: 80px;
+    height: 36px ;
+    width:124px ;
+    box-sizing: border-box;
+}
+
+    .infinity1:before,
+    .infinity1:after {
+      content: '';
+      box-sizing: content-box;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 23px;
+      height: 23px;
+      border: 20px solid rgba(50, 85, 127, 0.747);
+      border-radius: 50px 50px 0 50px;
+      transform: rotate(-45deg);
+    }
+    .infinity1:after{
+            left: auto;
+            right: 0;
+            border-radius: 50px 50px 50px 0;
+            transform: rotate(45deg);
+            border: 20px solid #02519280;
+
+    }
+    img{
+        width:100px ;
+        height: 100px;
+        position:absolute;
+        right: 950px;
+        bottom: 20px;
+        background-color: rgb(151, 243, 231);
+       
+    }
